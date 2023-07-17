@@ -88,7 +88,7 @@ app.listen(PORT,()=>{
 })
 
 app.get('/',(req,res)=>{
-    res.send("welcome to my Climate Chnage News API")
+    res.send("welcome to my Climate Change News API")
 })
 
 app.get('/news',(req,res)=>{
